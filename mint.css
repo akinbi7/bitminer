@@ -112,24 +112,11 @@ body{
     background-color: #145d2b;
 }
 
-.visuals .moon img{
+ .moon img{
    position: absolute;
    top: -20%;
    left: 10%;
    width: 200px;
-}
-
-
-.grass{
-    position: absolute;
-    width: 100%;
-    height: 70%;
-    top: 20%;
-}
-
-.grass img{
-   width: 100%;
-   height: 100%;
 }
 
 .bi-brightness-low-fill{
@@ -140,4 +127,34 @@ body{
 .bi-moon{
     font-size: 30px;
     color: white;
+}
+
+.bitcoin{
+    height: 70px;
+    width: 70px;
+    margin-left: 80%;
+    margin-top: -150px;
+    border-radius: 50%;
+}
+
+.bitcoin img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.hu__hu__ { animation: hu__hu__ infinite 2s ease-in-out }
+@keyframes hu__hu__ {
+    50% { transform: translateY(30px) }
+}
+
+.miner{
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+}
+
+.miner img{
+    height: 100%;
+    width: 100%;
 }
